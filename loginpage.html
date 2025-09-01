@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            justify-content: center;
+            align-items:center;
+            display: flex;
+            height: 100vh;
+        }
+        .container{
+           border: 2px solid rgb(247, 18, 152);
+           box-shadow:2px 2px 20px rgb(247, 18, 152) ;
+           background-image: url(ChatGPT_Image_Jul_7__2025__07_57_21_PM-removebg-preview.png);
+           background-blend-mode: lighten;
+           background-color: rgba(255, 255, 255, 0.05);
+           width: 450px;
+           height: 350px;
+           text-align: center;
+
+           
+        }
+        .container input{
+            display: block;
+            margin: 15px auto;
+            background-color: transparent;
+            padding: 10px;
+            border-radius: 10px;
+            width: 300px;
+            border: 2px solid white;
+            color: white;
+        }
+        .container button{
+            color: rgb(244, 247, 252);
+            font-weight: bold;
+            margin-top: 50px;
+            background-color:black;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px;
+        }
+        
+        .container button:hover{
+            background-color: rgb(5, 253, 245);
+            zoom: normal;
+            transform: scale(1.1);
+            transition: all 0.5s ease-in-out;
+        }
+        .container .login{
+            width: 100px;
+            margin-left:-10px ;
+            font-size: 15px;
+        }
+        .container .signup{
+            margin-left: 30px;
+            width: 100px;
+            font-size: 15px;
+        }
+         img{
+            width: 300px;
+        }
+
+        
+    </style>
+    <div class="container">
+        <form action="index.html" method="get">
+            <img src="logo.png" alt="logo">
+            <input type="text,number,email" name="username" placeholder="E-Mail,Mobile no.,Registered Name" required>
+            <input type="password" name="password" placeholder="password" required>
+            <button class="login">Login</button> 
+            <button class="signup">sign up</button>
+            
+        </form>
+
+    </div>
+</body>
+</html>

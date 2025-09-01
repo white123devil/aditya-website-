@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <style>
+        *{
+            background-color: black;
+        }
+        header{
+            /*background-color:rgb(61, 58, 58);*/
+            justify-content:space-evenly;
+            align-items:center;
+            display: flex;
+            border-bottom:1px solid rgba(167, 160, 160, 0.418);
+            border-width:100%;
+            
+            
+        }
+        .logo img{
+            width: 300px;
+            height:100px;
+
+        }
+        .search{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex: 3;
+            
+
+        }
+        .search input{
+            border:1px solid rgb(169, 31, 211);
+            box-shadow: 2px 2px 10px rgb(169, 31, 211);
+            border-radius: 20px;
+            height: 30px;
+            width: 700px;
+            text-align: center;
+            color:white;
+            background: transparent;
+            
+        }
+        
+            
+        .nav  a{
+            color: aqua;
+           
+            padding:3px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            display:inline-flex;
+            align-items: center;
+            
+        }
+        .nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;  /* links ko poore bar me equal gap ke sath phela dega */
+            align-items: center;
+            padding: 15px 0;        
+            border-bottom: 1px solid rgba(167, 160, 160, 0.418);
+        }
+
+        .logo {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+       
+        .search button{
+            color: white;
+            border:none;
+            background: transparent;
+            cursor: pointer;
+        }
+        .cart{
+            justify-content: center;
+            align-items: center;
+            display:flex;
+            font-size: 1.5em;
+            
+        }
+        .cart a{
+            color:white;
+            padding: 5px 4px;
+            margin: 15px;
+        }
+        .cart a:hover{
+            color:rgb(241, 115, 12);
+        }
+        .nav a:hover{
+            zoom: normal;
+            transform: scale(1.5);
+            transition: all 0.5s ease-in-out
+        }
+        
+        
+
+
+
+
+    </style>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="phot">
+        </div>
+        <div class="search">
+            <input type="search" placeholder="search your product hear">
+            <button ><i class="fa fa-search"></i></button>
+        </div>
+        <div class="cart">
+            <a href=""> <i class="fa fa-shopping-cart"></i></a>
+            <a class=""><i class="fa fa-heart"></i></a>
+            <a href="loginpage.html"> <i class="fa fa-user-circle"></i></a>
+        </div>
+    </header>
+    <div class="nav" >
+        <a href="">Fashion</a>
+        <a href="">Beauty</a>
+        <a href="">Entertainment</a>
+        <a href="">Leisure</a>
+        <a href="">Fitness</a>
+        <a href="">Shopping</a>
+        <a href="">General</a>
+    </div>
+    <div class="herosection">
+        
+
+        
+    </div>
+</body>
+</html>
